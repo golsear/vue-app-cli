@@ -1,16 +1,17 @@
 <template>
   <div id="app">
-    <filterable-versions-table></filterable-versions-table>
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import FilterableVersionsTable from './components/FilterableVersionsTable.vue'
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    FilterableVersionsTable
+    HelloWorld
   }
 }
 </script>
